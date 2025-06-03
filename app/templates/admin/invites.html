@@ -1,14 +1,24 @@
 <section class="py-8 animate__animated animate__fadeIn">
     <div class="container px-4 mx-auto">
         <div hx-post="/invite/table" hx-trigger="load" hx-target="#invite_table" hx-swap="outerHTML"
-            class="p-4 mb-6 overflow-x-auto ">
+            class="p-4 mb-6">
 
-            <div id="invite_table"></div>
+            <div id="invite_table">
+                {% include "components/loading.html" %}
+            </div>
 
         </div>
 
     </div>
 </section>
+<script>
+    document.body.addEventListener("htmx:responseError", (event) => {
+        // handle the error here
+        document.getElementById("error_message").classList.remove("hidden");
+        document.getElementById("error_message").innerHTML = "An error occurred. Please try again later.";
+    });
+
+</script>
 <script>
 
     function tableCopyLink(invite_code) {
