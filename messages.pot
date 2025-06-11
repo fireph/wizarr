@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-10 03:56+0000\n"
+"POT-Creation-Date: 2025-06-11 03:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Invalid username or password"
 msgstr ""
 
-#: app/blueprints/settings/routes.py:144
+#: app/blueprints/settings/routes.py:147
 msgid "Library scan failed"
 msgstr ""
 
@@ -29,19 +29,19 @@ msgstr ""
 msgid "Admin"
 msgstr ""
 
-#: app/templates/admin.html:39
+#: app/templates/admin.html:40
 msgid "Home"
 msgstr ""
 
-#: app/templates/admin.html:44
+#: app/templates/admin.html:45
 msgid "Invitations"
 msgstr ""
 
-#: app/templates/admin.html:49
+#: app/templates/admin.html:50
 msgid "Users"
 msgstr ""
 
-#: app/templates/admin.html:54 app/templates/settings/index.html:3
+#: app/templates/admin.html:55 app/templates/settings/index.html:3
 msgid "Settings"
 msgstr ""
 
